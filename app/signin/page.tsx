@@ -1,11 +1,12 @@
+'use client'
 import React from 'react';
-
+import SignInForm from './signInForm';
 type Props = {}
 
 const page = (props: Props) => {
     return (
         <div>
-            Signed in
+            <SignInForm/>
         </div>
     )
 }
